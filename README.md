@@ -29,8 +29,7 @@ please follow installation instructions tailored for your OS/distribution at, [S
 Hence in this case, I reccoment you to install 32-bit Java.
 
 ## Examples & Usage ##
-The libray contains two seperate examples on sending/receiving short messages (SMS) with the library. When you 
-run these examples for the first time, it might be little slow. So please be patient untill it gets underway. Once you export an application which uses this library, it will take care of everything it requires to make sure that is works on any machine without requiring the JavaCOMM installation as above. Enjoy!
+For examples and usage please follow instructions at [**Project Page**] (http://hamzeen.github.io/ShortMessage).
 
 ## Credit ##
 *   [**SMSLib**] (http://smslib.org/), for making this library possible.
