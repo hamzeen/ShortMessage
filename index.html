@@ -81,7 +81,16 @@ essentially a set of wrappers around SMSLib. Installation instructions for it ca
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>3. Examples & Usage</h3>
 
-<p align="justify">The libray contains two seperate examples on sending/receiving short messages (SMS) with the library. When you run these examples for the first time, it might be little slow. So please be patient untill it gets underway. Once you export an application which uses this library, it will take care of everything it requires to make sure that is works on any machine without requiring the JavaCOMM installation as above. Enjoy!<br/><br/></p>
+<p align="justify">The libray contains two seperate examples on sending/receiving short messages (SMS) with the library. Before you run either of these examples make sure to update the port ("COM3").</p>
+
+<p align="justify">If you are to run the SendMessage example, make sure to specify the message center number 
+of your operator, it's the last parameter ("+9477000003") of SendSms constructor.
+<pre><code>sender = new SendSms("modem.com1", "COM3", 19200, "Huawei", "E220", "+9477000003");
+</code></pre>
+Also make sure to provide a correct phone number here.
+<pre><code>sender.sendMessage("+94777123456","Hello Short Messaging Service.");
+</code></pre>
+<br/><br/></p>
 
 
 <h3>
